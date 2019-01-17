@@ -1,0 +1,117 @@
+  .plan-list{
+    width: 100%;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding-top: 20px;
+    .el-autocomplete{
+      width: 215px;
+    }
+    .plan-query{
+      height: 100px;
+      overflow: hidden;
+    }
+    .plan-query-leave-active, .plan-query-enter-active {
+      transition: all 1s ease;
+    }
+
+    .plan-query-leave-active, .plan-query-enter {
+      height: 0px !important;
+    }
+
+    .plan-query-leave, .plan-query-enter-active {
+      height: 100px;
+    }
+
+    .change-query-state{
+      position: relative;
+      display: inline-block;
+      border-top: #ebeef5 1px solid;
+      margin-left: 32px;
+      width: 1000px;
+      padding-top: 12px;
+      .query-state {
+        float: right;
+        .el-button {
+          margin-right: 18px;
+        }
+      }
+    }
+    .show-style{
+      float: right;
+      margin-right: 50px;
+    }
+    .el-button {
+      font-size: 14px;
+      margin-right:5px;
+    }
+    .el-dropdown-more {
+      padding-top: 5px;
+      margin-left: 10px;
+    .el-dropdown {
+      span{
+        cursor: pointer;
+        color: #409EFF;
+        font-size: 14px;
+      }
+    }
+    }
+    .el-card{
+      margin: 10px;
+      span{
+        font-size: 12px;
+      }
+      .first{
+        width: 250px;
+        display: inline-block;
+        .card-level{
+          border: 1px solid #F2F3F7;
+          border-radius: 5px;
+          padding: 0px 5px;
+          background-color: #9aff93;
+          color: #00abd8;
+          margin-left: 20px;
+        }
+      }
+      .two{
+        display: inline-block;
+        width: 350px;
+        margin-left: 30px;
+        color: #b3b3b3;
+      }
+      .three{
+        display: inline-block;
+        width: 150px;
+        text-align: right;
+      }
+      .last-row{
+        padding-bottom: 16px;
+        border-bottom: 1px solid #F2F3F7;
+      }
+      .card-btns{
+        margin-top: 16px;
+        float: right;
+        margin-bottom: 10px;
+      }
+    }
+    .center-pagination{
+      margin-top: 50px;
+      text-align: center;
+    }
+    .el-dialog{
+      padding: 0;
+      .dialog-verify{
+        border-top: 1px solid #F2F3F7;
+        padding-top: 50px;
+        padding-left: 50px;
+        .verify-state{
+          margin-bottom: 30px;
+          margin-left: 8px;
+        }
+        .verify-content{
+          margin-right: 50px;
+        }
+      }
+    }
+
+  }
