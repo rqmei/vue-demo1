@@ -34,7 +34,7 @@ export default new Router({
       component: Login1,
       hidden: true
     }, {
-      path: '/login',
+      path: '/',
       name: 'login',
       component: () => import('@/views/login/login'),
       hidden: true
